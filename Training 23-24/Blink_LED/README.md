@@ -7,18 +7,18 @@ CIRCUIT IMAGE NAME: circ_blink_LED_12.png
 CREATORS: 1. Maria Orfanaki
 
 ---------------------------------------------------
-# PURPOSE OF CIRCUIT: 
+### PURPOSE OF CIRCUIT: 
 ---------------------------------------------------
-### This circuit makes a LED shine for 1 second, then turns it off for another 1 sec, and repeats.
+#### This circuit makes a LED shine for 1 second, then turns it off for another 1 sec, and repeats.
 ---------------------------------------------------
-HARDWARE USED: 
+### HARDWARE USED: 
  - Arduino UNO R3 
  - Breadboard, 
  - 2 wires
  - 1 resistor (330Ω)
  - 1 LED (red)
 ---------------------------------------------------
-HARDWARE CONNECTIONS:
+### HARDWARE CONNECTIONS:
 References to :  
  - GLOBALS/ CONSTANTS 
    ---> The red LED is reffered to as "LED", type of integer (constant), with global scope. This constant is matched with the value of "12".
