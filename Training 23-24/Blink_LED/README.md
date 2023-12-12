@@ -1,5 +1,5 @@
 --------------------------------------------------
-# ARDUINO FILE NAME: blink_LED_12.ino
+### ARDUINO FILE NAME: blink_LED_12.ino
 ---------------------------------------------------
 
 CIRCUIT IMAGE NAME: circ_blink_LED_12.png
