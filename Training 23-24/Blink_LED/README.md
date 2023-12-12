@@ -21,8 +21,8 @@ CREATORS: 1. Maria Orfanaki
 ### HARDWARE CONNECTIONS:
 References to :  
  - GLOBALS/ CONSTANTS 
-   ---> The red LED is reffered to as "LED", type of integer (constant), with global scope. This constant is matched with the value of "12".
+   - The red LED is reffered to as "LED", type of integer (constant), with global scope. This constant is matched with the value of "12".
 
  - CRUSIAL CONNECTIONS
-   ---> The LED's short leg is plugged in Digital Pin (PWD) number 12, and its long leg goes to a GND pin straight to the Arduino board.
+   - The LED's short leg is plugged in Digital Pin (PWD) number 12, and its long leg goes to a GND pin straight to the Arduino board.
  
