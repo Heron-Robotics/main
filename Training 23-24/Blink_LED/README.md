@@ -9,6 +9,7 @@ CREATORS: 1. Maria Orfanaki
 
 ---------------------------------------------------
 PURPOSE OF CIRCUIT: 
+---------------------------------------------------
 This circuit makes a LED shine for 1 second, then turns it off for another 1 sec, and repeats.
 ---------------------------------------------------
 HARDWARE USED: 
