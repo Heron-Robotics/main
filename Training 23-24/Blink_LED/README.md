@@ -24,5 +24,7 @@ References to :
    - The red LED is reffered to as "LED", type of integer (constant), with global scope. This constant is matched with the value of "12".
 
  - CRUSIAL CONNECTIONS
-   - The LED's short leg is plugged in Digital Pin (PWD) number 12, and its long leg goes to a GND pin straight to the Arduino board.
+   - The LED and the resistor are placed in the breadboard. 
+   - The LED's short leg goes to a GND pin straight to the Arduino board. To do so, a (black) wire is used.
+   - The LED's long leg is plugged in Digital Pin (PWD) number 12. Before reaching PWD 12, there is a resistor in between. To do so, a (green) wire is used.
  
