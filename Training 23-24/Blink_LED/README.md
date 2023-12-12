@@ -1,6 +1,5 @@
 --------------------------------------------------
-
-ARDUINO FILE NAME: blink_LED_12.ino
+# ARDUINO FILE NAME: blink_LED_12.ino
 ---------------------------------------------------
 
 CIRCUIT IMAGE NAME: circ_blink_LED_12.png
@@ -8,9 +7,9 @@ CIRCUIT IMAGE NAME: circ_blink_LED_12.png
 CREATORS: 1. Maria Orfanaki
 
 ---------------------------------------------------
-PURPOSE OF CIRCUIT: 
+# PURPOSE OF CIRCUIT: 
 ---------------------------------------------------
-This circuit makes a LED shine for 1 second, then turns it off for another 1 sec, and repeats.
+### This circuit makes a LED shine for 1 second, then turns it off for another 1 sec, and repeats.
 ---------------------------------------------------
 HARDWARE USED: 
  - Arduino UNO R3 
