@@ -18,8 +18,7 @@ CREATORS: 1. Maria Orfanaki
  - 1 resistor (330Ω)
  - 1 LED (red)
 ---------------------------------------------------
-### HARDWARE CONNECTIONS:
-References to :  
+### HARDWARE CONNECTIONS: 
  - GLOBALS/ CONSTANTS 
    - The red LED is reffered to as "LED", type of integer (constant), with global scope. This constant is matched with the value of "12".
 
