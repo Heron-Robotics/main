@@ -1,0 +1,45 @@
+
+--------------------------------------------------
+
+  T I N K E R C A D   README  ArduinoGameWithLEDs
+            readme_ArduinoGameWithLEDs.txt
+
+--------------------------------------------------
+
+ARDUINO FILE NAME: ArduinoGameWithLEDs.ino
+---------------------------------------------------
+
+CIRCUIT IMAGE NAME: ArduinoGameWithLEDs.png 
+
+CREATORS: 1. Κώστογλου Σταύρος
+          2. Μορίδης Απόστολος
+          3. Μοσχόπουλος Γρηγόρης
+	  4. Μούκας Κωνσταντίνος
+
+---------------------------------------------------
+PURPOSE OF CIRCUIT: 
+  Above each button (approximately in the same line) we assign an LED.  Using a random number generator (interval from 2 to 5 seconds) a random light (random number from 1 to 3) is lit. Then the user has to press the button to which the lit LED corresponds. If the user presses it within 3 seconds, the user "wins". If the user takes longer than 3 seconds, then the LED goes off, the Buzzer starts beeping for 2 seconds (the program freezes temporarily) and the user "loses". After these checks, the same cycle is repeated.
+
+HARDWARE USED: 
+ - 1 Arduino UNO R3 
+ - 1 breadboard
+ - wires
+ - 3 buttons
+ - 6 resistors of 220Ω
+ - 1 buzzer
+
+HARDWARE CONNECTIONS:
+  The first left most button is connected to pin 13 in order to get input. The button at the center an the right most are connected to pin 12 and 11 respectively. The red LED is connected to pin 5 in order to light up when needed. The yellow and green LEDs are connected to pin 4 and 3 respectivly. Each of them is connected to ground through a 220Ω resistor. Lastly, there is a buzzer which is connected to pin 2 in order to buzz and let the user know he lost.
+References to : 
+ - The interval constant is used to set the timeframe the LED will be on. 
+ - The leds table is used to easily match the random output with the right output pin. For example, if the random returns "1" then the pin leds[1] = 3 will be set to HIGH. The value of leds[0] is never used.
+ - The buttons table is used exactly as the leds button but for input.
+ - The buzzer constant is refairing to pin 2 which is used to control the buzzer.
+ - The zero constant is refairing to digital pin 0, which is used as an argument to randomSeed. 
+ - The right-most button's upper-left leg is connected to the power lane, while its bottom-right leg is connected to the GND through the "-" rail through a 220Ω resistor. The bottom-right leg is plugged in Digital Pin 11 and serves as input.
+ - The middle button's upper-left leg is connected to the power lane, while its bottom-right leg is connected to the GND through the "-" rail through a 220Ω resistor. The bottom-right leg is plugged in Digital Pin 12 and serves as input.
+ - The left-most button's upper-left leg is connected to the power lane, while its bottom-right leg is connected to the GND through the "-" rail through a 220Ω resistor. The bottom-right leg is plugged in Digital Pin 13 and serves as input.
+- The green LED's cathode (short leg) is connected to the "-" rail through a 220Ω resistor. The anode (long leg) is connected directly to Digital Pin 3.
+- The yellow LED's cathode (short leg) is connected to the "-" rail through a 220Ω resistor. The anode (long leg) is connected directly to Digital Pin 4.
+- The red LED's cathode (short leg) is connected to the "-" rail through a 220Ω resistor. The anode (long leg) is connected directly to Digital Pin 5.
+ - The Buzzer's negative leg is connected to the "-" rail while its postive leg is connected directly to Digital Pin 2.
