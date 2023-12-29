@@ -1,23 +1,24 @@
---------------------------------------------------
-T I N K E R C A D README T E M P L A T E
-readme_<nametxt>.txt
---------------------------------------------------
-ARDUINO FILE NAME: <fname>.ino
+ARDUINO FILE NAME: buzzer_button.ino
 ---------------------------------------------------
-CIRCUIT IMAGE NAME: circ_<iname>.jpg OR circ_<iname>.png OR circ_<iname>.jpeg
-CREATORS: 1. <name>
-2. <name>
-3. <name>
+CIRCUIT IMAGE NAME: buzzer_button.png
+
+CREATORS: 
+<p>1. Vasileios-Rafail Avramidis</p>
+<p>2. Andreas Demirtzoglou</p>
+<p>3. Kiriaki Maria Kadrefi</p>
+
 ---------------------------------------------------
 PURPOSE OF CIRCUIT:
-<paragraph expailing the idea of circuit making>
-<e.g. This circuit makes a LED shine for 1 second, then turns it off for another 1 sec, and repeats>
+
+<p>This curcuit makes the buzzer ring while the button is being pressed.</p>
+  
 HARDWARE USED:
 - Arduino UNO R3
-- <other equipment (e.g. breadboard, wires, 2 buttons, 3 resistors of 330ΩΩ, etc>
+- <p>Breadboard, 2 Resistors (220Ω), 5 Cables, 1 Buzzer, 1 Button.</p>
 HARDWARE CONNECTIONS:
-References to :
-- Globals/ Constants on code (name that matches with part/port/pin of equipment)
-<e.g. The red LED is reffered to as "LED", type of integer (constant), with global scope. This constant is matched with the value of "12">
-- Basic connections between a part/port/pin of equipment and the other end they matched
-<e.g. The LED's short leg is plugged in Digital Pin (PWD) number 12, and its long leg goes to a GND pin straight to the Arduino board>
+
+- The button is reffered to as "buttonPin" and it is matched with the value 13. Similarly, the buzzer is reffered to as "buzzerPin" and it is matched with the value 12.
+
+- The buzzer's positive leg is plugged in Digital Pin (PWD) number 12 through a resistor and its negative leg is plugged in a GND pin.
+
+- The button's bottom left leg is plugged in 5V through a resistor and the bottom right leg is plugged in a GND pin. The upper left leg is plugged in a Digital Pin (PWD) number 13.
